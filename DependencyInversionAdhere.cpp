@@ -9,8 +9,6 @@ class MessageSender{
     virtual void SendMsg(const string &to , const string &msg) = 0 ;
 
 };
-
-
 class MailSender : public MessageSender {
 
     public:
