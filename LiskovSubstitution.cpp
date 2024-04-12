@@ -22,8 +22,6 @@ class Bird{
     }
 
 };
-
-
 class Duck : public Bird{
 
     void Fly() override {
