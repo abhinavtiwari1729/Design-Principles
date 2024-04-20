@@ -26,7 +26,6 @@ class Journal{
     }
 };
 
-
 class PersistenceManager{
 
     static void SaveToFile(const Journal & jour , const string &filename) {
